@@ -1,0 +1,9 @@
+eureka:
+  healthcheck:
+    enabled: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8701/eureka/
+
+server:
+  port: 80
