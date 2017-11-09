@@ -1,5 +1,6 @@
 server:
   port: 9993
+tstr: abc
 spring:
   rabbitmq:
     host: 127.0.0.1
