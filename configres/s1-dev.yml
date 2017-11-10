@@ -6,3 +6,9 @@ eureka:
       defaultZone: http://127.0.0.1:8701/eureka/
 server:
   port: 8711
+spring:
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://127.0.0.1:9990
