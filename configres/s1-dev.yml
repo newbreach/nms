@@ -5,7 +5,7 @@ eureka:
     serviceUrl:
       defaultZone: http://127.0.0.1:8701/eureka/
 server:
-  port: 8711
+  port: ${port:8711}
 spring:
   zipkin:
     base-url: http://127.0.0.1:9990
