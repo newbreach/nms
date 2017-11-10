@@ -10,5 +10,5 @@ zuul:
       path: /f/**
       serviceId: feignservice
     s:
-      path: /api-b/**
+      path: /s/**
       serviceId: s1
