@@ -13,4 +13,4 @@ spring:
       percentage: 1
   zipkin:
     enabled: true
-    baseUrl: http://127.0.0.1:9990
+    base-url: http://127.0.0.1:9990
