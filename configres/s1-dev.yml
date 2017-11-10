@@ -10,5 +10,5 @@ spring:
   sleuth:
     sampler:
       percentage: 1
-zipkin:
-  base-url: http://127.0.0.1:9990
+  zipkin:
+    baseUrl: http://127.0.0.1:9990
