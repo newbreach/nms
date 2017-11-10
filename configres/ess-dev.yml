@@ -1,5 +1,5 @@
 server:
-  port: 8701
+  port: ${port:8701}
 
 eureka:
   server:
